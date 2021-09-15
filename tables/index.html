@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Tables</title>
+</head>
+<body>
+    <h2>Tables</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Pamoka</th>
+                <th>Pirmadienis</th>
+                <th>Antradienis</th>
+                <th>Trečiadienis</th>
+                <th>Ketvirtadienis</th>
+                <th>Penktadienis</th>
+                <th>Šeštadienis</th>
+                <th>Sekmadienis</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>I</td><td>Lietuvių k.</td><td>Kūno k.</td><td>Dailė</td><td>Matematika</td><td rowspan="2">Technologijos</td><td colspan="2" rowspan="5" class="weekend">Savaitgalis</td>
+            </tr>
+            <tr>
+                <td>II</td><td>Matematika</td><td>Gamta</td><td>Lietuvių k.</td><td>Dailė</td>
+            </tr>
+            <tr>
+                <td>III</td><td>Gamta</td><td>Kūno k.</td><td>Dailė</td><td>Dailė</td><td>Dailė</td>
+            </tr>
+            <tr>
+                <td>IV</td><td>Choreografija</td><td>Kūno k.</td><td>Dailė</td><td>Dailė</td><td>Dailė</td>
+            </tr>
+            <tr>
+                <td>V</td><td>Lietuvių k.</td><td>Kūno k.</td><td>Dailė</td><td>Dailė</td><td>Dailė</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Po pietų</td><td colspan="5">Užklasinė veikla</td><td colspan="2" class="weekend higher"></td>
+            </tr>
+        </tfoot>
+    </table> 
+</body>
+</html>
