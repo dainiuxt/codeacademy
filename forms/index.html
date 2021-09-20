@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forms</title>
+</head>
+<body>
+
+    <form action="#">
+        <h3>Sukurti vartotoją</h3>
+        <label for="vartotojas">Prisijungimo vadrdas</label><br>
+        <input type="text" id="vartotojas" name="vartotojas" required><br><br>
+        <label for="email">El. paštas</label><br>
+        <input type="email" id="email" name="email" placeholder="elpastas@domenas.lt"><br><br>
+        <label for="password">Slaptažodis</label><br>
+        <input type="password" name="password" id="password"><br><br>
+        <label for="number">Kodas</label><br>
+        <input type="number" name="number" id="number"><br><br>
+        <label for="laikai">Metų laikai</label>
+        <fieldset id="seasons">
+            <label for="pavasaris">Pavasaris</label>
+            <input type="radio" name="seasons" id="pavasaris" required><br>
+            <label for="vasara">Vasara</label>
+            <input type="radio" name="seasons" id="vasara" required><br>
+            <label for="ruduo">Ruduo</label>
+            <input type="radio" name="seasons" id="ruduo" required><br>
+            <label for="ziema">Žiema</label>
+            <input type="radio" name="seasons" id="ziema">
+        </fieldset>
+        <input class="submit" type="submit" value="Sukurti">
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,53 @@
+html {
+    min-height: 100%;
+    background-image: linear-gradient(to bottom right, hsl(184, 100%, 70%), rgb(43, 99, 253));
+}
+
+form {
+    background-color: #fff;
+    margin-top: 5rem;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+    padding: 5%;
+}
+
+h3 {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+input {
+    width: 98%;
+    border-radius: 7px;
+    height: 2rem;
+    border: solid 1px #ccc;
+}
+
+.submit {
+    box-align: right;
+    background-color: rgba(33, 147, 253, 0.836);
+    color: #fff;
+    width: max-content;
+    padding: 5px 15px;
+    float: right;
+   
+}
+
+.seasons label {
+    float: left;
+}
+
+fieldset {
+    border: none;
+}
+fieldset input[type="radio"] {
+    margin-top: -1px;
+    width: max-content;
+    height: max-content;
+    vertical-align: middle;
+}
