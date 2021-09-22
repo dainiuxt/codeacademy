@@ -1,0 +1,79 @@
+.row1 .col {
+    background-color: orange;
+}
+
+.row2 .col {
+    background-color: yellow;
+}
+
+.row3 .col {
+    background-color: steelblue;
+}
+
+.row4 .col {
+    background-color: thistle;
+}
+
+@media only screen and (max-width: 320px) {
+    .container {
+            display: flex;
+            flex-flow: row wrap;
+            flex-direction: row;
+    }
+
+    .row1, .row2, .row3, .row4 {
+        flex: 0 0 100%;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+    .row4 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .col1, .col2, .col3, .col4 {
+        flex: 1;
+        box-sizing: border-box;
+        border: 3px solid white;
+        min-width: 50%;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .row1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .row1 .col {
+        flex: 1;
+        box-sizing: border-box;
+        border: 3px solid white;
+        max-width: 50%;
+    }
+
+    .row3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .row3 .col {
+        flex: 1;
+        box-sizing: border-box;
+        border: 3px solid white;
+        max-width: 33.3%;
+    }
+
+    .row4 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .col1, .col2, .col3, .col4 {
+        flex: 1;
+        box-sizing: border-box;
+        border: 3px solid white;
+        max-width: 25%;
+    }
+}
