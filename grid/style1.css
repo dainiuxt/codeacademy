@@ -1,0 +1,33 @@
+
+.header > div {
+    background-color: coral;
+}
+
+.geltonas {
+    background-color: yellow;
+    padding: 1rem;
+    margin: 10px 0;
+}
+
+.melyni > div {
+    background-color: turquoise;
+}
+
+.box {
+    background-color: darkgray;
+    padding: 1rem;
+    margin: 10px 0;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 1rem;
+}
+
+.melyni {
+    display: grid;
+    grid-row: 3;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1rem;
+}

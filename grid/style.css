@@ -1,0 +1,75 @@
+.item-a {
+    background-color: aquamarine;
+    grid-area: header;
+}
+
+.item-b {
+    background-color: blueviolet;
+    grid-area: main;
+}
+
+.item-c {
+    background-color: brown;
+    grid-area: aside;
+}
+
+.item-d {
+    background-color: chartreuse;
+    grid-area: footer;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "main main main aside"
+    "footer footer footer aside";
+}
+
+.container > div {
+    padding: 20px 0;
+    font-size: 3rem;
+    text-align: center;
+}
+.containertext {
+    display: grid;
+    grid-template-columns: 40% 57%;
+    grid-row-gap: 1em;
+    grid-column-gap: 3%;
+}
+
+.containertext > div {
+    background-color: crimson;
+}
+.containertext > div:nth-child(odd) {
+    background-color: blue;
+}
+
+.containerC {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 1em;
+    justify-items: stretch;
+
+}
+
+.containerC > div:nth-child(odd) {
+    background-color: coral;
+}
+
+.box1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+
+.box2 {
+    grid-column: 4 / 4;
+    grid-row: 1 / 3;
+    border: solid black 1px;
+}
+
+.box3, .box4, .box5 {
+    grid-row: 3 / 3;
+}
+
