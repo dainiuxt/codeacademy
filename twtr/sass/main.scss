@@ -1,0 +1,30 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/brands";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/regular";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/solid";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/v4-shims";
+$fa-font-path: "../@fortawesome/webfonts";
+$myfont: Georgia 1.2em;
+$table_head_col: black;
+$table_row_col: #eee;
+$table_bor_col: #eee;
+$first_col_width: 150px;
+$dark: #15202B;
+$border-color: #253341;
+$border: 2px;
+
+:root, .container-fluid {
+  background-color: $dark;
+}
+
+div.container {
+  margin: auto;
+  font: $myfont;
+  background-color: $dark;
+}
+
+.content {
+  border-left: solid $border $border-color;
+  border-right: solid $border $border-color;
+}

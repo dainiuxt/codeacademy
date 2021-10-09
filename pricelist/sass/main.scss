@@ -1,0 +1,47 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+$text-dark: #080f1a;
+$text-light: #73829e;
+$price-background: #f4f6fc;
+$button-color: #303ca5;
+$xl: 3rem;
+$sm: 1.1rem;
+$col-width: 330px;
+
+body {
+  background-color: $text-dark;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+div.container {
+  margin: auto;
+  color: $text-dark;
+}
+
+// .col {
+//   min-width: $col-width;
+// }
+
+.price {
+    font-size: $xl;
+    font-weight: bold;
+}
+
+.button {
+  width: 80%;
+}
+.price-tag {
+  background-color: $price-background;
+  width: 80%;
+  border-radius: $xl;
+}
+
+.sup {
+  font-size: $sm;
+  vertical-align: 75%;
+}
+
+.sub {
+  font-size: $sm;
+  margin-left: -$sm * 0.5;
+}
