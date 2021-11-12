@@ -1,0 +1,16 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+$myfont: Georgia 1.2em;
+$table_head_col: black;
+$table_row_col: #eee;
+$table_bor_col: #eee;
+$container_width: 700px;
+$first_col_width: 150px;
+$mano_spalva: green;
+
+.container-fluid {
+  height: 100vh;
+}
+.col {
+  border: $mano_spalva 1px solid;
+}

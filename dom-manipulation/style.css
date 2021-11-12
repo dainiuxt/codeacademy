@@ -1,0 +1,27 @@
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    background-color: red;
+    flex-direction: column;
+    padding: 10px;
+    margin: 1px;
+    min-height: 150px;
+}
+
+.content {
+    color: #333;
+    background-color: #ffc79e;
+    border: 2px solid #fbfbfb;
+    border-radius: 3px;
+}
+
+.grid {
+    display: grid;
+}
+
+@media only screen and (min-width: 600px) {
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
